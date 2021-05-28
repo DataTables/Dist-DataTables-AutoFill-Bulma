@@ -1,0 +1,15 @@
+{
+    "js": [
+        "js/autoFill.bulma.js",
+        "js/autoFill.bulma.min.js"
+    ],
+    "css": [
+        "css/autoFill.bulma.css",
+        "css/autoFill.bulma.min.css"
+    ],
+    "types": [
+        "types/autoFill.bulma.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/AutoFill",
+    "last-tag": "2.3.6"
+}

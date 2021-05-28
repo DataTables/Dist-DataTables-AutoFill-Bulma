@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <version>2.3.6</version>
+        <id>datatables.net-autofill-bm</id>
+        <description>This is AutoFill for DataTables with styling for [Bulma](https://bulma.io/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-AutoFill-Bulma.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>AutoFill  Excel  Bulma  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-autofill" version=">=2.3.6"/>
+            <dependency id="datatables.net-bm" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/autoFill.bulma.js" target="content\Scripts"/>
+        <file src="js/autoFill.bulma.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/autoFill.bulma.min.js" target="content\Scripts"/>
+        <file src="js/autoFill.bulma.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/autoFill.bulma.css" target="content\Content"/>
+        <file src="css/autoFill.bulma.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/autoFill.bulma.min.css" target="content\Content"/>
+        <file src="css/autoFill.bulma.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/autoFill.bulma.d.ts" target="content\Scripts"/>
+        <file src="types/autoFill.bulma.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
+</package>
+
