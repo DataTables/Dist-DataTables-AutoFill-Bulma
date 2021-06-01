@@ -3,6 +3,7 @@
     "description": "AutoFill for DataTables with styling for [Bulma](https://bulma.io/)",
     "main": "js/autoFill.bulma.js",
     "style": "css/autoFill.bulma.css",
+    "types": "./types/autoFill.bulma.d.ts",
     "version": "2.3.6",
     "files": [
         "css/**/*.css",
