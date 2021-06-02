@@ -87,3 +87,7 @@ div.dt-autofill-background {
 div.dt-autofill-list button {
   margin: 0;
 }
+
+div.dt-autofill-handle {
+  z-index: 11;
+}
