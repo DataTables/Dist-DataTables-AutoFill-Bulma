@@ -11,7 +11,7 @@
     ],
     "keywords": [
         "AutoFill",
-        "Excel",
+ "Excel",
         "Bulma",
         "Datatables",
         "jQuery",
@@ -20,6 +20,8 @@
         "sort"
     ],
     "dependencies": {
+        "datatables.net-autofill": ">=2.3.8",
+        "datatables.net-bm": ">=1.10.26-dev",
         "jquery": ">=1.7"
     },
     "moduleType": [
