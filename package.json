@@ -4,7 +4,7 @@
     "main": "js/autoFill.bulma.js",
     "style": "css/autoFill.bulma.css",
     "types": "./types/autoFill.bulma.d.ts",
-    "version": "2.3.7",
+    "version": "2.3.9",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -12,7 +12,7 @@
     ],
     "keywords": [
         "AutoFill",
- "Excel",
+        "Excel",
         "Bulma",
         "Datatables",
         "jQuery",
