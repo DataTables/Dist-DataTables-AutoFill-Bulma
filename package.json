@@ -4,14 +4,15 @@
     "main": "js/autoFill.bulma.js",
     "style": "css/autoFill.bulma.css",
     "types": "./types/autoFill.bulma.d.ts",
-    "version": "2.3.9",
+    "version": "2.3.7",
     "files": [
         "css/**/*.css",
-        "js/**/*.js"
+        "js/**/*.js",
+        "types/**/*.d.ts"
     ],
     "keywords": [
         "AutoFill",
-        "Excel",
+ "Excel",
         "Bulma",
         "Datatables",
         "jQuery",
@@ -21,7 +22,7 @@
     ],
     "dependencies": {
         "datatables.net-autofill": ">=2.3.7",
-        "datatables.net-bm": ">=1.10.25",
+        "datatables.net-bm": ">=1.11.3",
         "jquery": ">=1.7"
     },
     "moduleType": [
