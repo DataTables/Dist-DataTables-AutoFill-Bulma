@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-autofill-bm",
     "description": "AutoFill for DataTables with styling for [Bulma](https://bulma.io/)",
-    "main": "js/autoFill.bulma.js",
-    "module": "js/autoFill.bulma.mjs",
-    "style": "css/autoFill.bulma.css",
+    "main": "./js/autoFill.bulma.js",
+    "module": "./js/autoFill.bulma.mjs",
+    "style": "./css/autoFill.bulma.css",
     "types": "./types/autoFill.bulma.d.ts",
     "version": "3.0.1",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "AutoFill",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/AutoFill.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/autoFill.bulma.d.ts",
+            "import": "./js/autoFill.bulma.mjs",
+            "default": "./js/autoFill.bulma.mjs",
+            "require": "./js/autoFill.bulma.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/autoFill.bulma.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
