@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/autoFill.bulma.d.ts",
+            "style": "./css/autoFill.bulma.css",
             "import": "./js/autoFill.bulma.mjs",
-            "default": "./js/autoFill.bulma.mjs",
-            "require": "./js/autoFill.bulma.js"
+            "require": "./js/autoFill.bulma.js",
+            "default": "./js/autoFill.bulma.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
